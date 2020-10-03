@@ -5,11 +5,6 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 
 
-require_once __DIR__.'/server.php';
-
-//echo 'test';
-exit;
-
 
 /**
  * Laravel - A PHP Framework For Web Artisans
@@ -18,7 +13,7 @@ exit;
  * @author   Taylor Otwell <taylor@laravel.com>
  */
 
-define('LARAVEL_START', microtime(true));
+//define('LARAVEL_START', microtime(true));
 
 //echo 'test';
 //exit;
@@ -38,6 +33,8 @@ define('LARAVEL_START', microtime(true));
 //echo __DIR__ . '/../vendor/autoload.php';
 //exit;
 
+require_once __DIR__.'/server.php';
+exit;
 
 require __DIR__ . '/../vendor/autoload.php';
 
